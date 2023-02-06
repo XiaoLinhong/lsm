@@ -1,0 +1,19 @@
+&share
+
+   ! the parameters of underlying surface: 下垫面参数
+   z0    = 0.01 ! roughness length [m]
+   ustar = 0.5  ! friction velocity [m/s]
+
+   ! the parameters of source
+   zs = 0.1 ! source height
+
+   ! box of simulation
+   zMAX = 1000. ! top boundary [m]
+   dz   = 0.1   ! interval of z-axis [m]
+
+   xMAX = 20. ! maximum distance at x-axis [m]
+   dx   = 0.2 ! interval of x-axis [m]
+
+   yMAX = 40. ! maximum distance at y-axis [m]
+   dy   = 0.2 ! interval of y-axis [m]
+/
